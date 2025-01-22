@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+            background-color: #D6E3ED;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #666;
+            font-family: Arial, sans-serif;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #333;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+            margin-left: 2rem;
+        }
+
+        .social-icons a {
+            color: #666;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="logo">Vivify</a>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About us</a>
+            <a href="/blog">Blog</a>
+            <a href="/contact">Contact</a>
+            <div class="social-icons">
+                <img src="Assets/Icons/Insta.svg" width="15px" height="15px" alt="">
+                <img src="Assets/Icons/LinkedIn.svg" width="15px" height="15px" alt="">
+                <img src="Assets/Icons/Twitter.svg" width="15px" height="15px" alt="">
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
